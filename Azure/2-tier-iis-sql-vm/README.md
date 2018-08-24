@@ -48,12 +48,6 @@ $ terraform apply
 
 This will take around 45m to provision - once completed you should see a resource group containing everything described above.
 
-## Variables
-
- * `prefix` - The prefix used for all resources in this example. Needs to be a short (6 characters) alphanumeric string. Example: `addemo`.
- * `admin_username` - The username of the administrator account for both the local accounts, and Active Directory accounts. Example: `myexampleadmin`
- * `admin_password` - The password of the administrator account for both the local accounts, and Active Directory accounts. Needs to comply with the Windows Password Policy. Example: `PassW0rd1234!`
-
 ## Modules
 
 This example makes use of 5 modules:
